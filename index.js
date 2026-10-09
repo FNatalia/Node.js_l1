@@ -1,2 +1,3 @@
-const name = process.argv[2];
-console.log(`Hi, ${name}!`);
+const name = process.argv[2] ?? "World";
+console.log(`Hello, ${name}!`);
+console.log("Dmitriy Yartsev")
